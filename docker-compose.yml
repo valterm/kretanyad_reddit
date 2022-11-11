@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  kretanyad:
+    container_name: "kretanyad"
+    image: "valterm/kretanyad"
+    build: .
+    environment:
+    - "TELEGRAM_BOT_TOKEN=5627913501:AAFnvXJO_QvzoLBXVt1dRz_DGFWP6RoF5t4"
